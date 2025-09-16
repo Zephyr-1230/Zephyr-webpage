@@ -1,0 +1,96 @@
+/* 消除网页格式 */
+html,
+body {
+    height: 100%;
+    margin: 0;
+    min-width: 1500px;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+h1,
+h2 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+/* 修改特性 */
+.nav{
+    min-width: 1200px;
+    width: auto;
+}
+/* 菜单栏 */
+.top{
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background-color: gray;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+    min-width: 1200px;
+}
+.top>.toptext>.home{
+    margin: 0;
+    width: 90px;
+    height: 50px;
+    background-color: black;
+}
+
+.menu{
+    float: right;
+}
+.toptext>.home{
+    float: left;
+    margin: 10px;
+}
+.top>.toptext>.home>.homebox{
+    margin: 10px;
+}
+ .menu>div{
+            float: left; 
+            margin-top: 0px;
+            margin-right: 80px;
+            cursor: pointer;
+            line-height: 50px;
+            font-size: 16px;
+}  
+/* 背景 */
+.backtaxt{
+    margin-left: 3%;
+    opacity: 0.1;
+    width: 94%;
+    line-height: 27ch;
+    position: fixed;
+    z-index: 1;
+    min-width: 1200px;
+}
+/* 主体框 */
+.mainbox{
+    position: absolute;
+    margin-top: 80px;
+    width: 80%;
+    height: auto;
+    min-height: 800px;
+    background-color: rgba(10,10,10,0.1);
+    border-radius: 10px;
+    border: 5px solid rgba(10,10,10,0.2);
+    position: relative;
+    margin-left: 8.5%;
+    padding: 20px;
+    z-index: 2;
+    
+}
